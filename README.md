@@ -21,8 +21,8 @@ Das Skript lässt für jede Fingerabdruckaufnahme einen NFIQ2-Score berechnen un
 Dies bedeutet, dass die Analyse des Bildes `path` ein Ergebnis von `score` ergab.
 
 ## SourceAFIS für Java
-Zur Durchführung der folgenden Skripte müssen Sie zunächst die **Dependency** des SourceAFIS-Algorithmus Version 3.17.1 in Ihr Projekt einbinden.
-Bitte erkundigen Sie sich auf der offiziellen [SourceAFIS für Java Website](https://sourceafis.machinezoo.com/java) für weitere Informationen.
+Zur Durchführung der folgenden Skripte müssen Sie zunächst die [**Dependency**](https://mvnrepository.com/artifact/com.machinezoo.sourceafis/sourceafis/3.17.1) des SourceAFIS-Algorithmus Version 3.17.1 in Ihr Projekt einbinden.
+Für weitere Informationen können Sie sich gern auf der offiziellen [SourceAFIS für Java Website](https://sourceafis.machinezoo.com/) erkundigen.
 
 ### Minuzienextraktor
 Der Minuzienextraktor `./Extractor/src/extractor/Extract_Features.java` extrahiert die Besonderheiten der Testdaten und speichert diese als `.template`-Datei in einer vorbestimmten Ordnerstruktur mit individuellen Namen.
