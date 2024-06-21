@@ -1,12 +1,12 @@
 # Beispielskripte
-Dieses Repository beinhaltet Beispielskripte und Testdaten zum Testen und Nachvollziehen der Datenerhebung an Fingerabdruckdaten.
+Dieses Repository beinhaltet Beispielskripte und Daten zum Testen und Nachvollziehen der Datenerhebung an Fingerabdruckaufnahmen.
 Die Datenanalyse basiert auf der Bildqualität und dem Matching mehrerer Fingerabdrücke gegeneinander. Dafür kommen folgende Algorithmen zum Einsatz:
 * NFIQ2 Version 2.2.0
 * SourceAFIS für Java Version 3.17.1
 
-In den Beispielskripten kommt sowohl die Programmiersprache Java, als auch Python zum Einsatz.
+In den Beispielskripten kommt sowohl die Programmiersprache Java als auch Python zum Einsatz.
 
-Die verwendeten Testdaten sind unter `./test_data` zu finden.
+Die verwendeten Testdaten sind unter `./test_data` einzusehen.
 
 Weitere Informationen und Anpassungen für den Code lesen Sie bitte im Folgenden nach.
 
@@ -19,7 +19,7 @@ Das Skript lässt für jede Fingerabdruckaufnahme einen NFIQ2-Score berechnen un
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `path` &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `score`
 
-Dies bedeutet, dass die Analyse des Bildes `path` ein Ergebnis von `score` ergab.
+Dies bedeutet, dass die Analyse des Bildes `path` ein Ergebnis von `score` erzielte.
 
 ## SourceAFIS für Java
 Zur Durchführung der folgenden Skripte müssen Sie zunächst die [**Dependency**](https://mvnrepository.com/artifact/com.machinezoo.sourceafis/sourceafis/3.17.1) des SourceAFIS-Algorithmus Version 3.17.1 in Ihr Projekt einbinden.
@@ -38,4 +38,4 @@ Die `./Matcher/output.txt` besteht aus vielen Zeilen, die wie folgt aufgebaut si
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `path1`; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `path2`; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `score`
 
-Dies bedeutet, dass der Vergleich `path1`(als Analysegrundlage) gegen `path2`(als Vergleichsbild) ein Ergebnis von `score` ergab.
+Dies bedeutet, dass der Vergleich: `path1`(als Analysegrundlage) gegen `path2`(als Vergleichsbild) ein Ergebnis von `score` erzielte.
