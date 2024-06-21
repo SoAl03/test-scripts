@@ -13,6 +13,7 @@ Weitere Informationen und Anpassungen für den Code lesen Sie bitte im Folgenden
 ## NFIQ2
 Für die Bildqualitätsanalyse können Sie das Python-Skript `./nfiq2_tester/nfiq2_computing.py` nutzen. 
 Dafür installieren Sie bitte die `nfiq2.exe` von der offiziellen Seite des [NIST](https://github.com/usnistgov/NFIQ2/releases) und ändern, wenn nötig, die Pfadangabe in **Zeile 35**. 
+Unter Umständen müssens Sie noch das Python-Paket `glob` nachinstallieren.
 
 Das Skript lässt für jede Fingerabdruckaufnahme einen NFIQ2-Score berechnen und schreibt die Ergebnisse in die `./nfiq2_tester/results.txt`. Die `/nfiq2_tester/results.txt` besteht aus vielen Zeilen, die wie folgt aufgebaut sind: 
 
