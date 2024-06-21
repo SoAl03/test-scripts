@@ -2,7 +2,7 @@
 Dieses Repository beinhaltet Beispielskripte und Testdaten zum Testen und Nachvollziehen der Datenerhebung an Fingerabdruckdaten.
 Die Datenanalyse basiert auf der Bildqualität und dem Matching mehrerer Fingerabdrücke gegeneinander. Dafür kommen folgende Algorithmen zum Einsatz:
 * NFIQ2 Version 2.2.0
-* SourceAFIS für Java
+* SourceAFIS für Java Version 3.17.1
 
 In den Beispielskripten kommt sowohl die Programmiersprache Java, als auch Python zum Einsatz.
 
@@ -21,7 +21,7 @@ Das Skript lässt für jede Fingerabdruckaufnahme einen NFIQ2-Score berechnen un
 Dies bedeutet, dass die Analyse des Bildes `path` ein Ergebnis von `score` ergab.
 
 ## SourceAFIS für Java
-Zur Durchführung der folgenden Skripte müssen Sie zunächst die **Dependency** des SourceAFIS-Algorithmus in Ihr Projekt einbinden.
+Zur Durchführung der folgenden Skripte müssen Sie zunächst die **Dependency** des SourceAFIS-Algorithmus Version 3.17.1 in Ihr Projekt einbinden.
 Bitte erkundigen Sie sich auf der offiziellen [SourceAFIS für Java Website](https://sourceafis.machinezoo.com/java) für weitere Informationen.
 
 ### Minuzienextraktor
