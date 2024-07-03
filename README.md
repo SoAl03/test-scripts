@@ -1,5 +1,5 @@
-# Beispielskripte
-Dieses Repository beinhaltet Beispielskripte und Daten zum Testen und Nachvollziehen der Datenerhebung an Fingerabdruckaufnahmen.
+# Beispielskripts
+Dieses Repository beinhaltet Beispielskripts und Daten zum Testen und Nachvollziehen der Datenerhebung an Fingerabdruckaufnahmen.
 Die Datenanalyse basiert auf der Bildqualität und dem Matching mehrerer Fingerabdrücke gegeneinander. Dafür kommen folgende Algorithmen zum Einsatz:
 * NFIQ2 Version 2.2.0
 * SourceAFIS für Java Version 3.17.1
@@ -30,7 +30,7 @@ Der Minuzienextraktor `./Extractor/src/extractor/Extract_Features.java` extrahie
 
 ### Matcher
 Der Matcher `./Matcher/src/matcher/Match_Templates.java` liest die `.template`-Dateien ein, vergleicht diese paarweise und schreibt das Ergebnis in `./Matcher/output.txt`. 
-Dabei bestimmt die Variable `contactless` in **Zeile 19**, welche Fingerabdrücke gegeneinader verglichen werden: 
+Dabei bestimmt die Variable `contactless` in **Zeile 19**, welche Fingerabdrücke gegeneinander verglichen werden: 
 * `true`: vergleiche alle kontaktlosen Bilder gegeneinander oder
 * `false`: vergleiche alle kontaktbasierten Bilder gegeneinander.
 
